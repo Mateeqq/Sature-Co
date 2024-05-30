@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(220deg, #000000, #434343, #232526, #414345,#414345);
+    background-size: 300% 300%;
+    animation: move-bg 13s linear infinite;
+    width: 100%;
+    height: 150vh;
+}
+
+@keyframes move-bg {
+    0% {
+        background-position: 0%, 50%;
+    }
+    50% {
+        background-position: 100%, 50%;
+    }
+    100% {
+        background-position: 0%, 50%;
+    }
+}
+.footer_menu p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.title h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: white;
+}
+.list_menu {
+    margin-bottom: 50px;
+}
+.list_menu a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding-left: 5px;
+    transition: all 0.2s ease;
+}
+.list_menu a:hover {
+    padding-left: 10px;
+    transition: all 0.2s ease;
+}
+.list_menu li {
+    margin: 20px 0;
+}
+.menu {
+    padding: 5vh 27px;
+    position: fixed;
+    top: 0.1px;
+    bottom: 1px;
+    background: rgba(20, 25, 25, 0.8);
+    backdrop-filter: blur(16px);
+    border-right: 7px solid rgba(93, 99, 110, 0.993);
+    left: -347px;
+    transition: all 0.2s ease;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+.img-menu img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 120px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.footer_menu p {
+    text-align: center;
+    margin-top: 155px;
+}
+.menu:hover {
+    left: 0;
+    transition: all 0.2s ease;
+}
+.head .img-head img{
+    width: 450px;
+    margin-top: 120px; 
+}
+.text p {
+    color: white;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 20px;
+}
+.text {
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+    
+}
+.photo .img {
+    width: 680px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 20px;
+    
+    
+}
+.photo .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
